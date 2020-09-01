@@ -1,0 +1,48 @@
+site_name: NanoIso Documentation
+
+repo_name: sannalda/nanoiso
+repo_url: https://github.com/sannalda/nanoiso
+
+theme:
+  name: material
+  palette:
+    scheme: default
+    primary: deep purple
+    accent: deep purple
+  icon:
+    repo: fontawesome/brands/github
+
+
+plugins:
+  - search
+
+nav:
+    - Introduction: introduction.md
+    - Tools: tools.md
+    - Installation:
+      - Prerequisites: prerequisite.md
+      - Source: source.md
+      - Configuration: configuration.md
+      - Tests: tests.md
+    - Modules:
+        - Overview: overview.md
+        - Processing:
+            - Preprocessing: preprocessing.md
+            - Transcriptome: transcriptome.md
+            - Quantification: quantification.md
+        - Analysis:
+            - Translation: translation.md
+            - Disorder: disorder.md
+            - Domain: domain.md
+            - Structure: structure.md
+            - Phosphorylation Site: site.md
+            - Prion: prion.md
+        - Report: visualization.md
+    - Tutorial:
+        - General: general.md
+        - Input: input.md
+        - Alignment: alignment.md
+        - Isoform Analysis: analysis.md
+        - Cluster Computing: cluster.md
+    - Release Notes: release.md
+    - Citations: citations.md
