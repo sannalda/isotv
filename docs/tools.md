@@ -6,9 +6,9 @@ NanoIso uses and combines many external tools. Below are references and descript
 
 ### Preprocessing
 * [Filtlong](https://github.com/rrwick/Filtlong/) - Filtering reads by their quality.
+* [Pychopper](https://github.com/nanoporetech/pychopper) - Finding full length transcripts.
 
 ### Transcriptome
-* [Pychopper](https://github.com/nanoporetech/pychopper) - Finding full length transcripts.
 * [Pinfish](https://github.com/nanoporetech/pinfish) - Obtaining transcription using genome-based transcript polishing.
 * [Gffcompare](https://github.com/gpertea/gffcompare) - Comparing obtained transcription to existing annotation.
 

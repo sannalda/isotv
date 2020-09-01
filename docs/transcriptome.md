@@ -1,8 +1,8 @@
-# Building De Novo Transcriptome
+# Building a De Novo Transcriptome
 
-The building transcriptome step involves constructing a *de novo* based transcriptome. These annotations resemble  
+The transcriptome step involves constructing a *de novo* based transcriptome from the full length transcripts.
 
-[Minimap2](https://github.com/lh3/minimap2) is first used to construct an initial index mapping to the genome. Then, [Pinfish](https://github.com/rrwick/Filtlong/) is used to polish the genome-based transcript to obtain the transcriptome, while [Gffcompare](https://github.com/gpertea/gffcompare) compares the transcripts to the existing annotation to determine any potential redundant reads.
+[Minimap2](https://github.com/lh3/minimap2) is first used to construct an initial index mapping to the genome. Then, [Pinfish](https://github.com/rrwick/Filtlong/) is used to polish the genome-based transcript to obtain the transcriptome. Finally, [Gffcompare](https://github.com/gpertea/gffcompare) compares the transcripts to the existing annotation to determine any potential redundant reads.
 
 This part of the pipeline is primarly based on the **ont_tutorial_pinfish** released by Nanopore Technologies.  
 
@@ -58,7 +58,6 @@ Below are changes that can be configured in the **config.yaml** file or explicit
 ```
 | -- ReferenceData/
     | -- junctions.bed
-    ...
 | -- Results/
     | -- Minimap2/
         | -- ReferenceFasta.mmi

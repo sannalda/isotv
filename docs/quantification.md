@@ -1,6 +1,6 @@
 # Quantification
 
-The quantification step involves remapping and quantifying reads to the *de novo* transcriptome.
+The quantification step involves remapping and quantifying transcripts to the *de novo* transcriptome.
 
 [Minimap2](https://github.com/lh3/minimap2) is first to map the reads to the transcriptome. Then, few custom scripts are used to normalize the reads using [DESeq2](https://bioconductor.org/packages/release/bioc/html/DESeq2.html) and calculate TPMs.
 
@@ -43,7 +43,7 @@ Below are changes that can be configured in the **config.yaml** file or explicit
         | -- X.sorted.bam
         | -- X.sorted.bam.bai
         | -- X.counts
+        ...
         | -- counts_all.txt
         | -- counts_deseq2norm_all.txt
-        ...
 ```

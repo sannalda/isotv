@@ -1,7 +1,7 @@
 site_name: NanoIso Documentation
 
 repo_name: sannalda/nanoiso
-repo_url: https://github.com/sannalda/nanoiso
+repo_url: https://github.molgen.mpg.de/annaldasula/isoform_analysis
 
 theme:
   name: material
@@ -17,7 +17,7 @@ plugins:
   - search
 
 nav:
-    - Introduction: introduction.md
+    - Introduction: index.md
     - Tools: tools.md
     - Installation:
       - Prerequisites: prerequisite.md
@@ -40,9 +40,8 @@ nav:
         - Report: visualization.md
     - Tutorial:
         - General: general.md
-        - Input: input.md
-        - Alignment: alignment.md
-        - Isoform Analysis: analysis.md
+        - Processing: processing.md
+        - Analysis: analysis.md
         - Cluster Computing: cluster.md
     - Release Notes: release.md
     - Citations: citations.md

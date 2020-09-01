@@ -1,6 +1,6 @@
 # Configuration
 
-NanoIso has two configuration files - `environment.yaml`, which handles the necessary packages and dependences for the [conda environment](source.md), and `config.yaml`, which covers the general and specific pipeline parameters and paths.
+NanoIso has two configuration files - `environment.yaml`, which handles the necessary packages and dependences for the [conda environment](prerequisite.md), and `config.yaml`, which covers the general and specific pipeline parameters and paths.
 
 ## Pipeline Configuration
 

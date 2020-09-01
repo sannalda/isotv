@@ -1,6 +1,6 @@
 # Secondary Structure
 
-An additional method to understand the translational effects of transcripts is to analyze protein secondary structure.
+An additional method to understand the functional effects of transcripts is to analyze protein secondary structure.
 
 [Porter5](https://github.com/mircare/Porter5/) was used to predict secondary structure in 3 classes: alpha helix, beta sheets, and the rest.
 

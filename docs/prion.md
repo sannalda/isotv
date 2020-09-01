@@ -1,6 +1,6 @@
 # Prion
 
-Furthermore, prion subsequences are another way to study the translation effects of transcripts.
+Furthermore, prion subsequences are another way to study the functional effects of transcripts.
 
 [PLAAC](https://github.com/whitehead/plaac) was implemented to identify prion subsequences.
 

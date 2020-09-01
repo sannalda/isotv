@@ -1,6 +1,6 @@
 # Protein Domains
 
-Another method to understand the translational effects of transcripts is to determine the presence of domains.
+Another method to understand the functional effects of transcripts is to determine the presence of domains.
 
 [InterProScan](https://github.com/ebi-pf-team/interproscan/wiki), and more specifically [Pfam](https://pfam.xfam.org/) was used for domain prediction.
 

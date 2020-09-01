@@ -5,7 +5,7 @@ The final NanoIso step is producing a report combining the specified translation
 
 * The first row contains the quantification of gene and transcription values. The first plot shows the total gene expression, the second plot shows individual isoform expression, and the third plot shows individual isoform usage.
 
-* The second group visualize the transcript annotation for all transcripts. Each exon has also been uniquely annotated by NanoIso - If the exon from one transcript exactly matches the exon to another transcript, then they will classified the same. Note - Regardless of strand, every transcript is visualized left to right.
+* The second group visualizes the annotation for all transcripts. Each exon has also been uniquely annotated by NanoIso - If the exon from one transcript exactly matches the exon to another transcript, then they will classified the same. Note - Regardless of strand direction, every transcript is visualized left to right.
 
 * The third group visualizes the various translational analysis. Each plot for each isoform has 8 different subparts.
     1. Mod Den - The density of modifications in that position.

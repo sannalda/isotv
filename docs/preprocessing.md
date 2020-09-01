@@ -1,6 +1,6 @@
 # Preprocessing
 
-The preprocessing step involves finding full length transcripts from basecalled raw reads.
+The preprocessing step involves searching for full length transcripts from raw basecalled reads.
 
 [Filtlong](https://github.com/rrwick/Filtlong/) is used to filter reads by their quality, while [Pychopper](https://github.com/nanoporetech/pychopper) is used to find full length transcripts.
 

@@ -1,6 +1,6 @@
 # Regions of Disorder
 
-One of the methods to understand the translational effects of transcripts is to determine regions of disorder.
+One of the methods to understand the functional effects of transcripts is to determine regions of disorder.
 
 [IUPred2A](https://iupred2a.elte.hu/) was used to predict disordered regions.
 

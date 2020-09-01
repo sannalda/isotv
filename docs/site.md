@@ -1,8 +1,8 @@
 # Phosphorylation Sites
 
-Identify phosphorylation binding sites is another to understand the translation effects of transcripts.
+Identifying phosphorylation binding sites is another to understand the functional effects of transcripts.
 
-[ScanProsite](https://prosite.expasy.org/scanprosite/) was used to scan and identify potential phosphorylation binding sites.
+[ScanProsite](https://prosite.expasy.org/scanprosite/) was used to scan and identify potential phosphorylation binding site motifs. 
 
 ## Usage
 
