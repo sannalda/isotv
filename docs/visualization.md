@@ -1,6 +1,6 @@
-# Report
+# Visualization
 
-The final NanoIso step is producing a report combining the specified translational analysis in visual form. The report is generated for each gene, and if specified, for the group of input genes. An example of the report is shown and explained below.
+The final NanoIso step is producing a visualization incorporating all of the functional analysis for each individual isoform. The report is generated for each gene, and if specified, also for the group of input genes. An example of the report is shown and explained below.
 ![Report](images/ABI2_transcripts_filtered_coding_potential_analysis.png "Title")
 
 * The first row contains the quantification of gene and transcription values. The first plot shows the total gene expression, the second plot shows individual isoform expression, and the third plot shows individual isoform usage.

@@ -37,7 +37,7 @@ nav:
             - Structure: structure.md
             - Phosphorylation Site: site.md
             - Prion: prion.md
-        - Report: visualization.md
+        - Visualization: visualization.md
     - Tutorial:
         - General: general.md
         - Processing: processing.md
