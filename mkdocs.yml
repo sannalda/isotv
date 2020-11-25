@@ -1,7 +1,7 @@
-site_name: NanoIso Documentation
+site_name: IsoTV Documentation
 
 repo_name: sannalda/nanoiso
-repo_url: https://github.molgen.mpg.de/annaldasula/isoform_analysis
+repo_url: https://github.molgen.mpg.de/MayerGroup/IsoTV
 
 theme:
   name: material

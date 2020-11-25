@@ -1,10 +1,10 @@
 # Prerequisites
 
-Even though NanoIso is a snakemake pipeline and python based, many of the tools that implemented are available only for linux based operating systems.
+Even though NanoIso is a snakemake pipeline and is python based, many of the tools that implemented are available only for linux based operating systems.
 
 Most all software requirements are managed by the `conda` package manager and stored in a conda environment. However, few tools are not managed in conda and need to be installed seperately.
 
-## Conda
+## Installing Conda
 
 Install `conda` as described at [https://conda.io/docs/install/quick.html](https://docs.conda.io/en/latest/miniconda.html)
 ```
@@ -12,12 +12,14 @@ wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 bash Miniconda3-latest-Linux-x86_64.sh
 ```
 
-**Note:** Newer versions of `conda` may have have package conflicts errors. If this is the case, try downgrading the conda version to `4.6.14`.
+See [Source](source.md) on how to install and activate the environment.
+
+**Note:** Newer versions of `conda` may have have package conflicts errors when trying to activate the environment. If this is the case, try downgrading the conda version to `4.6.14`.
 ```
 conda install conda=4.6.14
 ```
 
-## Tools
+## Installing External Tools
 
 ### IUPred2A
 
@@ -75,15 +77,3 @@ wget ftp://ftp.expasy.org/databases/prosite/prosite.dat
 ### PLAAC
 
 Install PLAAC from [https://github.com/whitehead/plaac](https://github.com/whitehead/plaac).
-
-### Custom Scripts
-
-For all custom scripts, below is a list of all required python packages and versions tested on:
-
-* Bio
-* pandas
-* numpy
-* subprocess
-* argparse
-* seaborn
-* matplotlib

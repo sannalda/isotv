@@ -1,10 +1,10 @@
 # Source
 
-Below describes the steps to install NanoIso, which requires `conda` to be installed as described in [prerequisites](prerequisite.md).
+Below outlines the steps to install NanoIso, which requires `conda` to be installed as described in [prerequisites](prerequisite.md).
 
-1. Download the **isoform_analysis** pipeline into a folder named **isoform_analysis**:
+1. Download the **nanoiso** pipeline into a folder named **nanoiso**:
 
-        git clone https://github.molgen.mpg.de/annaldasula/isoform_analysis.git
+        git clone https://github.molgen.mpg.de/annaldasula/nanoiso.git
 
 2. Change the working directory into the new `nanoiso`:
 

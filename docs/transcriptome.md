@@ -2,7 +2,9 @@
 
 The transcriptome step involves constructing a *de novo* based transcriptome from the full length transcripts.
 
-[Minimap2](https://github.com/lh3/minimap2) is first used to construct an initial index mapping to the genome. Then, [Pinfish](https://github.com/rrwick/Filtlong/) is used to polish the genome-based transcript to obtain the transcriptome. Finally, [Gffcompare](https://github.com/gpertea/gffcompare) compares the transcripts to the existing annotation to determine any potential redundant reads.
+[Minimap2](https://github.com/lh3/minimap2) is first used to construct an initial mapping to the reference genome. Then, [Pinfish](https://github.com/nanoporetech/pinfish) is used to polish the genome-based transcript to obtain the transcriptome. This is done by first clustering reads with similar intron and exon structure, 
+
+Finally, [Gffcompare](https://github.com/gpertea/gffcompare) compares the transcripts to the existing annotation to determine any potential redundant reads.
 
 This part of the pipeline is primarly based on the **ont_tutorial_pinfish** released by Nanopore Technologies.  
 

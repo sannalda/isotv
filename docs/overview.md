@@ -6,4 +6,4 @@ The tool is constructed in a way that so that each individual part can be run in
 
 Below is an over schematic diagram of the modules.
 
-![Pipeline](images/PipelineV1.svg "Title")
+![Pipeline](images/PipelineV2.png "Title")

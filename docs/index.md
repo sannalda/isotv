@@ -7,7 +7,7 @@ There are two major components to this tool:
 * Processing - Mapping and quantifying full length ONT reads to a *de novo* transcriptome.
 * Analysis - Individual isoform transcriptional and functional analysis.
 
-NanoIso is specially geared towards processing and analyzing data across time (e.g. looking for isoform changes across two or more time points). However, it can be extrapolated to analyzing isoforms across conditions. 
+NanoIso is specifically geared towards processing and analyzing data across time (e.g. looking for isoform changes across two or more time points). However, it can be extrapolated to analyzing isoforms across conditions. 
 
 The [Tools](tools.md) summarizes the external tools used for this pipeline.
 

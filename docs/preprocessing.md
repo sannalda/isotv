@@ -2,7 +2,7 @@
 
 The preprocessing step involves searching for full length transcripts from raw basecalled reads.
 
-[Filtlong](https://github.com/rrwick/Filtlong/) is used to filter reads by their quality, while [Pychopper](https://github.com/nanoporetech/pychopper) is used to find full length transcripts.
+First, basecalled ONT reads are filtered by the minimum read quality using [Filtlong](https://github.com/rrwick/Filtlong/). Then, full length transcripts are found using [Pychopper](https://github.com/nanoporetech/pychopper).
 
 ## Usage
 
